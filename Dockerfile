@@ -1,5 +1,5 @@
 # base image
-FROM node:8.11.2
+FROM node:slim
 
 # set working directory
 RUN mkdir /usr/src/app
